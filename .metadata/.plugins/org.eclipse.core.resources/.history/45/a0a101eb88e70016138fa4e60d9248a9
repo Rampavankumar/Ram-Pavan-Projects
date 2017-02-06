@@ -1,0 +1,30 @@
+package operations;
+
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+public class ManageEmployee {
+	private static SessionFactory factory;
+	
+	public static void main(String[] args) {
+		
+		try{
+			
+			factory=new Configuration().configure("hibernate.cfg.xml").buildSessionFactory();
+			
+		}
+		
+catch(Exception e){
+	e.printStackTrace();
+	
+}
+		
+		public Intezer addEmployee(int id,String lastname,String firstname,int balance){
+			
+			
+		}
+		
+		
+	}
+
+}

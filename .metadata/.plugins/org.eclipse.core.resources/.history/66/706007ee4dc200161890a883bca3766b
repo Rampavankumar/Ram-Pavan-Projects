@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Subtraction</title>
+
+</head>
+<body bgcolor="blue">
+
+	<center>
+		<form action="./sub">
+
+			<h1>enter the first number</h1>
+
+			<input type="text" name="s1">
+			<h1>enter the second number</h1>
+			<input type="text" name="s2"> <input type="submit"
+				value="sub">
+
+		</form>
+	</center>
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<servlet>
+
+		<servlet-name>one</servlet-name>
+		<servlet-class>com.ram.url.Source</servlet-class>
+	</servlet>
+	<servlet>
+
+		<servlet-name>two</servlet-name>
+		<servlet-class>com.ram.url.Target</servlet-class>
+	</servlet>
+
+
+	<servlet-mapping>
+
+		<servlet-name>one</servlet-name>
+		<url-pattern>/url</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+
+		<servlet-name>two</servlet-name>
+		<url-pattern>/target</url-pattern>
+
+	</servlet-mapping>
+
+	<welcome-file-list>
+
+		<welcome-file>source.html</welcome-file>
+	</welcome-file-list>
+
+
+
+
+</web-app>

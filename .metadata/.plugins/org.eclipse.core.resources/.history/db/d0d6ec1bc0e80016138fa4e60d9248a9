@@ -1,0 +1,9 @@
+package com.ram.hibernate.sessionutil;
+
+public class SessionUtil {
+	
+	private static SessionFactory factory;
+	
+	
+
+}

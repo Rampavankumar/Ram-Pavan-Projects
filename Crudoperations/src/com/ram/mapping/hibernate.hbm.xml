@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+ "-//Hibernate/Hibernate Mapping DTD//EN"
+ "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+ <hibernate-mapping>
+ 
+ 
+<class name="com.ram.Crudoperations.bean.Account" table="Account">
+ 
+ 
+ <id name="accno" column="Accno"></id>
+ 
+ <property name="balance" column="Balance"></property>
+ 
+ 
+ 
+ </class>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </hibernate-mapping>

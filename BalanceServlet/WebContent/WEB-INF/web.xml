@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+<servlet>
+	<servlet-name>balance</servlet-name>
+	<servlet-class>BalanceServlet.BalanceServlet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+
+<servlet-name>balance</servlet-name>
+<url-pattern>/balance</url-pattern>
+</servlet-mapping>
+
+<welcome-file-list>
+
+<welcome-file>balance.html</welcome-file>
+</welcome-file-list>
+
+
+
+</web-app>
+
+

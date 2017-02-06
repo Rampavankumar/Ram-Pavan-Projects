@@ -1,0 +1,5 @@
+127.0.0.1 - - [28/Jan/2017:22:55:02 -0500] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [28/Jan/2017:22:55:03 -0500] "GET /HibernateExample1/ HTTP/1.1" 404 1030
+0:0:0:0:0:0:0:1 - - [28/Jan/2017:22:58:56 -0500] "GET /HibernateExample1/ HTTP/1.1" 404 1030
+127.0.0.1 - - [28/Jan/2017:23:03:33 -0500] "GET / HTTP/1.1" 404 994
+0:0:0:0:0:0:0:1 - - [28/Jan/2017:23:03:33 -0500] "GET /HibernateExample1/WEB-INF/classes/com/ram/hibernate/EmployeeDAO.java HTTP/1.1" 404 992

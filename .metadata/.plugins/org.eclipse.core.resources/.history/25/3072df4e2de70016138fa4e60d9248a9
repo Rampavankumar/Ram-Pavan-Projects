@@ -1,0 +1,27 @@
+package com.ram.util;
+
+import org.hibernate.SessionFactory;
+import org.hibernate.cfg.Configuration;
+
+public class Sessionutil {
+	
+	private static SessionFactory sessionFactory;
+	
+	static{
+		try{
+			
+			
+		
+			
+		}
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+
+}

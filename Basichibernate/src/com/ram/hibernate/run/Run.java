@@ -1,0 +1,46 @@
+package com.ram.hibernate.run;
+
+import com.ram.hibernate.DAO.SessionDAO;
+import com.ram.hibernate.account.Account;
+
+public class Run {
+
+	public static void main(String[] args) {
+		SessionDAO dao=new SessionDAO();
+		
+		/*Account getaccount=dao.get(1001);
+		System.out.println("my account id is :"+getaccount.getId());
+		System.out.println("my first name is :"+getaccount.getFirstname());
+		System.out.println("my last name is :"+getaccount.getLastname());
+		System.out.println("my current salary is"+getaccount.getSalary());
+		*/
+		
+	Account acc=new Account();
+	acc.setFirstname("rampavan");
+	acc.setId(1001);
+	acc.setLastname("nelakuditi");
+	acc.setSalary(100000);
+	dao.Insert(acc);
+	
+	
+	
+	/*Account account=new Account();
+	
+	
+	acc.setId(1001);
+	
+	acc.setFirstname("krishna");
+	
+	dao.update(account);
+	
+	
+	dao.delete(1001);
+	
+	
+	
+		
+
+	}
+*/
+}
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;ab.txt&apos; to &apos;properties&apos;" description="Move &apos;ab.txt&apos; to &apos;properties&apos;" destination="src/com/ram/properties" element1="ab.txt" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1483653996540" updateReferences="true"/>
+</session>

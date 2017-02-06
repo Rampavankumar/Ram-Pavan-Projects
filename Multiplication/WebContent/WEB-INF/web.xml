@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+
+<servlet>
+<sevlet-name>sum</sevlet-name>
+<sevlet-class>com.ram.servlets.Multiplication</sevlet-class>
+
+</servlet>
+
+<servlet-mapping>
+
+<servlet-name>mul</servlet-name>
+<url-pattern>multiplication</url-pattern>
+
+</servlet-mapping>
+
+<welcome-file-list>
+<welcome-file>multiplication.html</welcome-file>
+
+</welcome-file-list>
+</web-app>

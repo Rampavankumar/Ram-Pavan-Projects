@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<sevlet>
+		<servlet-name>welcome</servlet-name>
+		<servlet-class>com.ram.Servlets.Welcome</servlet-class>
+	</sevlet>
+</web-app>

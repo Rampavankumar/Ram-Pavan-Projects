@@ -1,0 +1,37 @@
+package com.ram.hibernate.DAO;
+
+import org.hibernate.Session;
+
+import com.ram.hibernate.account.Account;
+import com.ram.hibernate.sessionutil.SessionUtil;
+
+public class SessionDAO {
+	
+	
+public Account get(int ID){
+	Session session=null;
+	Account account=null;
+	
+	try{
+		
+		session=SessionUtil.getsession();
+		account=session.get(Account.class, ID);
+		
+		
+		
+	}catch(Exception e){
+		e.printStackTrace();
+	}finally{
+		
+		session.close();
+	}
+	return account;
+	
+	
+	
+	
+}
+
+
+
+}

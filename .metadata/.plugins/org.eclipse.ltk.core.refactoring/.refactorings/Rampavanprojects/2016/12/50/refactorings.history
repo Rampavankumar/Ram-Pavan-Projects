@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;Database.Example.java&apos; to &apos;SQLDatabaseConnection.java&apos;&#x0D;&#x0A;- Original project: &apos;Rampavanprojects&apos;&#x0D;&#x0A;- Original element: &apos;Database.Example.java&apos;&#x0D;&#x0A;- Renamed element: &apos;Database.SQLDatabaseConnection.java&apos;" description="Rename compilation unit &apos;Example.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;Database{Example.java" name="SQLDatabaseConnection.java" references="false" stamp="1480825709113" version="1.0"/>
+</session>

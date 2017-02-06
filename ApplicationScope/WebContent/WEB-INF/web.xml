@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+	<context-param>
+
+		<param-name>admin</param-name>
+		<param-value>admin.com</param-value>
+
+	</context-param>
+
+<servlet>
+
+<servlet-name>firstscope</servlet-name>
+<servlet-class>com.ram.applicationscope.ApplicationScope</servlet-class>
+
+	</servlet>
+
+<servlet>
+
+<servlet-name>Secondscope</servlet-name>
+<servlet-class>com.ram.applicationscope.ApplicationScope1</servlet-class>
+</servlet>
+<servlet-mapping>
+
+<servlet-name>firstscope</servlet-name>
+<url-pattern>/Scope</url-pattern>
+
+</servlet-mapping>
+
+<servlet-mapping>
+
+<servlet-name>Secondscope</servlet-name>
+<url-pattern>/target</url-pattern>
+</servlet-mapping>
+
+<welcome-file-list>
+
+<welcome-file>scope.html</welcome-file>
+
+</welcome-file-list>
+
+
+
+</web-app>

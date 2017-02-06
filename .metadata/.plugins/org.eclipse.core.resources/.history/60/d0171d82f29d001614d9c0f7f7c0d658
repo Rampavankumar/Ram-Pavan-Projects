@@ -1,0 +1,13 @@
+package com.ram.Set;
+
+import java.util.TreeSet;
+
+public class TreeSetDemo1 {
+
+	
+	public static void main(String[] args) {
+		
+		TreeSet treeSet = new TreeSet(new MyComparator());
+		ts.add(10);
+	}
+}

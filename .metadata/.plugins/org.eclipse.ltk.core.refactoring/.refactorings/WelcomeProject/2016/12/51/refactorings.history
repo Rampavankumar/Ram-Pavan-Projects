@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.ram.Servlets.Welcome&apos; to &apos;WelcomeServlet&apos;&#x0D;&#x0A;- Original project: &apos;WelcomeProject&apos;&#x0D;&#x0A;- Original element: &apos;com.ram.Servlets.Welcome&apos;&#x0D;&#x0A;- Renamed element: &apos;com.ram.Servlets.WelcomeServlet&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Welcome&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.ram.Servlets{Welcome.java[Welcome" matchStrategy="1" name="WelcomeServlet" qualified="false" references="true" similarDeclarations="false" stamp="1481739339118" textual="false" version="1.0"/>
+</session>

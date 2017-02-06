@@ -1,0 +1,14 @@
+package com.ram.util;
+
+
+
+public class Sessionutil {
+	
+	Configuration config=new Configurtion();
+	
+	
+	
+	
+	
+
+}

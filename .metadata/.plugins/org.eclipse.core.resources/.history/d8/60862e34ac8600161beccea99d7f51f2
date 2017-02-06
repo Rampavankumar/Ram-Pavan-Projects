@@ -1,0 +1,23 @@
+package com.ram.exception;
+
+public class Throw {
+
+	
+	static void throwone(){
+		
+		try{
+			throw new NullPointerException("denied");
+			
+			
+		}catch(Exception e){
+			System.out.println("rsm");
+		}
+		
+		throw e;
+		
+			
+		}
+		
+			
+	}
+}

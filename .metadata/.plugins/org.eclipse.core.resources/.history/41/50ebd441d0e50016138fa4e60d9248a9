@@ -1,0 +1,5 @@
+package com.ram.hibernate;
+
+public class Employee {
+
+}

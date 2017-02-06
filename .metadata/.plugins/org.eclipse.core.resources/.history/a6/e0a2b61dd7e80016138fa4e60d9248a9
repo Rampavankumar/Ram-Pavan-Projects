@@ -1,0 +1,5 @@
+package com.ram.hibernate.account;
+
+public class Account {
+
+}

@@ -1,0 +1,15 @@
+package com.ram.Set;
+
+import java.util.TreeSet;
+
+public class TestComparable {
+
+	public static void main(String[] args) {
+		
+		TreeSet treeSet = new TreeSet();
+		
+		System.out.println(treeSet.add(10)); 
+		
+	}
+	
+}

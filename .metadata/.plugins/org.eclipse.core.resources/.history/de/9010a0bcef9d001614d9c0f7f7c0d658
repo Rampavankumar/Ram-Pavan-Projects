@@ -1,0 +1,30 @@
+package com.ram.Set;
+
+import java.util.TreeSet;
+
+public class TestComparable {
+
+	public static void main(String[] args) {
+		
+		TreeSet treeSet = new TreeSet();
+		/*
+		System.out.println(treeSet.add(10)); 
+		
+		System.out.println(treeSet.add(0)); //0.comareTo(10);
+		
+		System.out.println(treeSet.add(1));
+		
+		System.out.println(treeSet.add(-1));*/
+		
+		System.out.println(treeSet.add("A"));
+		System.out.println(treeSet.add("Z"));
+		System.out.println(treeSet.add("Q"));
+		
+		System.out.println(10);
+		  
+		System.out.println(treeSet);
+		
+		
+	}
+	
+}

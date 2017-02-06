@@ -1,0 +1,5 @@
+package com.ram.hibernate.DAO;
+
+public class SessionDAO {
+
+}

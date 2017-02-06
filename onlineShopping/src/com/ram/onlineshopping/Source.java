@@ -38,6 +38,7 @@ public class Source extends HttpServlet{
 		String qty=req.getParameter("t1");
 		
 		sess.setAttribute(shirt, qty);
+		System.out.println(qty);
 		
 		
 		}
